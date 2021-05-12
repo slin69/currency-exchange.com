@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   
+    <head style="position:absolute; left:100px; top:50px; font-size:100px;">
+        <text style="position:absolute; top:-10px; left:500px;font-size:75px;">exchange cash</text>
+     </head>
+     <title>
+        currency exchanger
+    </title>
+    <body style="background-color: green;font-size:50px; border:1px solid yellow">
+        <img style="position:absolute; top:500px;height:500px; width:500px;"src="cash.gif">
+        <img style="position:absolute; top:500px;left:750px;height:500px; width:500px;"src="cash.gif">
+        <img style="position:absolute; top:500px;left:600px;height:500px; width:500px;"src="cash.gif">
+        <input style="position: absolute; top:325px; left:330px; width:250px; height: 50px;"type="submit" id="btn1" onclick="fn1()">
+        <input style="position:absolute;left:450px; top:250px; width:150px; height:60px;"type="text" placeholder="amount" id="amount" >
+
+        <select id="countries"style="position:absolute; top: 325px; left:500px; width:100px; height:50px" name="countries" >
+            <option >yuan</option>
+            <option>us dollars</option>
+            <option>euros</option>
+            <option>pounds</option>
+             <option>yen</option>
+        </select>
+        <select id="countries2"style="position:absolute; top: 325px; left:750px; width:100px; height:50px" name="countries" >
+            <option >yuan</option>
+            <option>us dollars</option>
+            <option>euros</option>
+            <option>pounds</option>
+             <option>yen</option> 
+        </select>
+        <ul>
+            <li style="display: inline; padding:50px;"><a href="index.html">money exchnage</a></li>
+            <li style="display: inline; padding:50px;"><a href="about_me.html">about me</a></li>
+        </ul>
+
+        <script src="currency.js"></script>
+
+    </body>
+    <style>
+        body{
+            animation-name: example;
+            animation-duration: 10s;
+        
+        }
+        @keyframes example{
+            0%{background-color : red;}
+            25%{background-color: yellow;}
+            50%{background-color: green;}
+            75%{background-color: blue;}
+            100%{background-color: purple;}
+        }
+    </style>
+
+</html>
